@@ -1,0 +1,30 @@
+# Dataset, model weights and experiment output
+/data/
+/pre_trained_weights/
+/results/
+/checkpoints/
+/outputs/
+/runs/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+*.npz
+*.npy
+*.h5
+*.hdf5
+*.nii
+*.nii.gz
+*.log
+
+# Local environments and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+.ipynb_checkpoints/
+.DS_Store

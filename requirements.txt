@@ -1,0 +1,13 @@
+# Install CUDA-compatible PyTorch/torchvision and mamba-ssm first. See README.
+numpy<2
+scipy
+timm>=0.4.12,<1
+einops
+tqdm
+h5py
+Pillow
+matplotlib
+SimpleITK
+MedPy
+thop
+ml-collections

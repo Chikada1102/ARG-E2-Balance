@@ -1,0 +1,3 @@
+# Preserve the audited source bytes across checkouts.
+*.py -text
+*.sh text eol=lf

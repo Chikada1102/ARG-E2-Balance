@@ -1,0 +1,14 @@
+ARG E2 Balance is derived from VM-UNet by Jiacheng Ruan and Suncheng Xiang.
+Upstream repository: https://github.com/JCruan519/VM-UNet
+Upstream commit: b87827eb5a5faff00bd4b7b6505e56d3ca813ca2
+Upstream license: Apache License, Version 2.0 (see LICENSE).
+
+The ARG E2 Balance version modifies these upstream files:
+  models/vmunet/vmamba.py: adds ARG feedback to the SS2D B/C inputs.
+  models/vmunet/vmunet.py: adds ARG attachment and auxiliary training output.
+  train_synapse.py: adds the E2 protocol, online augmentation and run audit.
+  engine_synapse.py: adds ARG training supervision and per-case evaluation.
+  configs/config_setting_synapse.py: sets num_workers to 32 for E2.
+
+utils.py and datasets/dataset.py retain the upstream source bytes.
+The reference/ directory contains upstream code used by the self-checks.
